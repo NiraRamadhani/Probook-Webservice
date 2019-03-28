@@ -1,0 +1,59 @@
+td {
+    padding: 5px;
+}
+
+.profile-header {
+    padding: 30px 0px 5px;
+    background-color: #00374c;
+    position: relative;
+}
+
+.profile-content {
+    margin: 15px;
+}
+
+.profpic {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 10px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.edit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    color: white;
+    font-family: 'Nunito';
+    font-size: 35px;
+    margin: 10px;
+}
+
+.title {
+    color: #F26600;
+    font-family: 'Nunito';
+    font-size: 35px;
+    margin: 5px;
+}
+
+td {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Nunito';
+}
+
+table {
+    margin-left: 10px;
+}
+
+.content {
+    padding-left: 30px;
+}

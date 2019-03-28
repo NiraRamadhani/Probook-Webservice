@@ -1,0 +1,93 @@
+div#nav{
+    text-align: justify;
+    font-family: 'Nunito';
+}
+ 
+div#nav ul{
+    width: 100%;
+    display: table; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+div#nav ul li {
+    padding: 0;
+    margin: 0;
+    display: table-cell; 
+}
+
+div#nav ul li#li-pro-book {
+    width: 32%;
+    background: #00AEEF;
+}
+
+div#nav ul li#li-username {
+    background: #00AEEF;
+    text-align: right;
+}
+
+div#nav ul li#li-logout {
+    width: 13%;
+    text-align: center;
+    background-color: #F26600;
+    vertical-align: middle;
+}
+
+div#nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+div#nav ul li a#pro-book {
+    font-size: 2.5em;
+    padding: 10px 0px;  
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+div#nav ul li a#logout {
+    padding: 15px 0px;
+    background-color: #F26600;
+}
+
+div#nav ul li a#username {
+    display: inline;
+    font-size: 1.5em;
+    background: #00AEEF;
+    text-decoration: underline;
+    padding-right: 15px;
+}
+
+div#nav ul#menu li {
+    display: table-cell; 
+    width: 33.33%;
+    border-right: 2px solid black;
+}
+
+div#nav ul#menu li:last-child {
+    border-right: 0px;
+}
+
+div#nav ul#menu li a {
+    display: block;
+    background-color:#0094CC;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+
+div#nav ul#menu li a::first-letter {
+    font-size: 1.6em;
+}
+
+div#nav ul#menu li a.active {
+    background-color: #F26600;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+}

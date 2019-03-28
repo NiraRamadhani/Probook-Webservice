@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    font-family: 'Nunito';
+}
+
+.img-right{
+    width: 128px;
+    height: 128px;
+    border: 1px solid #464646;
+    margin-top: 55px;
+    object-fit: contain;
+}
+
+.img-left{
+    float: left;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.order{
+    /* word-wrap: break-word; */
+    /* position: absolute; */
+    /* left: 2%; */
+    /* top: 20%; */
+    width: 90%;
+    margin: 0 5%;
+}
+
+.desc {
+    word-wrap: break-word;
+    width: 380px;
+}
+
+.desc-review {
+    word-break: break-all;
+    width: 305px;
+    padding-left: 15px;
+}
+
+.rev {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+h2 {
+    word-break: break-all;
+    width: 380px;
+    color: orangered;
+    font-size: 3em;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+button {
+    font-size: 1em;
+    background: deepskyblue;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    border: 0px;
+}
+
+.author {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.uname {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    margin-top: -5px;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+}
+
+.star-one {
+    width: 50px;
+    height: 50px;
+}
+
+.user-rating {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.picture {
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 42.5vh; 
+    left: 0;
+    top: 0;
+    width: 600px; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid #888;
+    width: 45%;
+    height: auto;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-tick {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.modal-text {
+    font-size: 1em;
+}
+
+table td {
+    vertical-align: top;
+    color: #464646;
+}
+
+#dropdown {
+    border: 1px solid black;
+    border-radius: 2px;
+    background: url(/public/img/down-arrow.png) 83% / 20% no-repeat, linear-gradient(90deg, #FFFFFF 50%, #ACACAC 50%);
+    width: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    padding: 2px 3px;
+}
+
+.kategori {
+    font-weight: 900;
+}
+
+.harga {
+    color: tomato;
+    font-weight: 900;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 50px;
+    line-height: 1.25;
+  }
+
+.book-info {
+	color: #565656;
+	width: 80%;
+}
+
+.book-pict {
+	float: left;
+	margin-right: 20px;
+    width: 100px;
+    height: auto;
+    /* display: inline-block; */
+	/* height: 100px; */
+	/* object-fit: contain; */
+	/* border: 1px solid #464646; */
+}
+
+.clearfix {
+    overflow: auto;
+}
+.book-title {
+	color: #F26600;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+.judul {
+    margin-top:45px;
+}

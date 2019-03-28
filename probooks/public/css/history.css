@@ -1,0 +1,84 @@
+
+.title {
+	color: #F26600;
+	font-size: 3.5em;
+	padding-left: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: Nunito;
+}
+
+.book-title {
+	color: #F26600;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+#history-content {
+	font-family: Nunito;
+}
+
+.book-pict {
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	border: 1px solid #464646;
+}
+
+.book-info {
+	color: #565656;
+	margin-left: 30px;
+	width: 80%;
+}
+
+.buy-time {
+	color: #565656;
+	text-align: right;
+	margin-right: 30px;
+	width: 175px;
+	margin-top: 0px;
+}
+
+.buy-info {
+	font-weight: bold;
+	font-size: 1em;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 50px;
+  line-height: 1.25;
+}
+
+.book-content{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 122px;
+}
+
+.review-button{
+	margin-top: 35px;
+	background-color: #249DEB;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 18px;
+	
+}
+
+.review-button:hover{
+	cursor: pointer;
+}

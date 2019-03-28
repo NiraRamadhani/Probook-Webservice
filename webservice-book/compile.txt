@@ -1,0 +1,2 @@
+javac -d . Book.java Transaksi.java BookService.java BookServiceImpl.java SOAPPublisher.java
+java com.probooks.jaxws.service.SOAPPublisher

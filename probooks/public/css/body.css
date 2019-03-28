@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+	margin: 0px;
+    width: 600px;
+    height: 100vh;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-yellow {
+    color: #F2D800;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-orange {
+    color: #F26600;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.vertical-align-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }

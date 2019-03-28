@@ -1,0 +1,132 @@
+.title {
+    color: #F26600;
+    font-family: 'Nunito';
+    font-size: 50px;
+    margin: 5px;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+td {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.address-cell {
+    vertical-align: top;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    padding-left: 0px;
+}
+
+.notfile {
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    font-family: 'Nunito';
+}
+
+.file {
+    width: 78%;
+    height: 25px;
+    font-size: 18px;
+    font-family: 'Nunito';
+}
+
+input[type=submit] {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0094CC;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background: #0094CC;
+    padding: 5px 25px;
+}
+
+input[type=button] {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DA5051;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #DA5051;
+    background: transparent;
+    padding: 5px 25px;
+}
+
+input[type=file] {
+    display: inline-block;
+    color: white;
+    font-size: 0px;
+    padding: 0px 0px 0px;
+}
+
+.submit {
+    text-align: right;
+}
+
+td {
+    font-family: 'Nunito';
+}
+
+.profpic {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    object-fit: cover;
+}
+.custom-file-input {
+    float: right;
+    PADDING-TOP: 7px !important;
+    padding-right: 6px !important;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Browse ...';
+    background: lightgray;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    font-family: 'Nunito';
+    height: 24px;
+    overflow: hidden;
+    color: black;
+
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+input.card-col {
+    width: 90%;
+}
+
+#cardstatus{
+    width:15px !important;
+    height:15px !important;
+}
